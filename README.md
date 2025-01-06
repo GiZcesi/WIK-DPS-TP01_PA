@@ -107,7 +107,3 @@ createServer((req, res) => {
 }).listen(PORT, () => console.log(`Serveur écoute sur PORT ${PORT}`));
 ```
 
-## Licence
-
-Ce projet est open source et disponible sous la [Licence MIT](LICENSE).
-
