@@ -30,19 +30,6 @@ Ce projet est un serveur HTTP simple construit avec Node.js. Il répond aux requ
    npx tsc --init
    ```
 
-   Exemple minimal de `tsconfig.json` :
-   ```json
-   {
-     "compilerOptions": {
-       "target": "ES2020",
-       "module": "commonjs",
-       "outDir": "./dist",
-       "strict": true
-     },
-     "include": ["*.ts"]
-   }
-   ```
-
 4. Compilez le fichier TypeScript :
 
    ```bash
